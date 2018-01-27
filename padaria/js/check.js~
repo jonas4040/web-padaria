@@ -1,0 +1,18 @@
+//checkboxes produtos
+function checar(){
+	var valoh=document.getElementById('c').value;
+	if(valoh="on"){var j ='<?php echo $i;?>';valoh=j;}
+	alert(valoh);
+
+/*
+var checkedValue = 0; 
+ checkedValue = document.querySelector('.messageCheckbox:checked').value;
+var inputElements = document.getElementById('c');
+for(var i=0; inputElements[i]; ++i){
+      if(inputElements[i].checked){
+           checkedValue = inputElements[i].value;
+           break;
+      }
+}
+alert(checkedValue);*/
+}

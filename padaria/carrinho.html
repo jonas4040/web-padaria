@@ -1,0 +1,28 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<style type="text/css">
+#prod{background-color:#000000; color:#FFFFFF; width:400px;position:absolute;}
+#carr{position:absolute; left:600px; top:0px;}
+</style>
+<script type="text/javascript">
+function add() {
+  var v = document.getElementById("num");
+  v.innerHTML = parseInt(v.innerHTML) + 1;
+}
+    
+</script>
+</head>
+<body>
+    <div id="prod">
+        <p>Calça: <br><input type="button" name="cal" onclick="add()" value="Adicionar ao Carrinho."></p>
+        <p>Bermuda: <br><input type="button" name="ber" value="Adicionar ao Carrinho."></p>
+        <p>Camisa: <br><input type="button" name="cam" value="Adicionar ao Carrinho."></p>
+        </div>
+    <div id="carr">
+        <p>Calça<br> Iten(s):<p id="num">0</p></p>
+        <p>Bermuda<br> Iten(s):</p>
+        <p>Camisa<br> Iten(s):</p>
+        </div>
+</body>
+</html>
